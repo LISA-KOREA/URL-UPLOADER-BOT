@@ -1,6 +1,5 @@
 # Modified by @LISA_FAN_LK | @UploadLinkToFileBot
 
-# the logging things
 import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -31,7 +30,6 @@ def GetExpiryDate(chat_id):
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["help"]))
 async def help_user(bot, update):
-    # logger.info(update)
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.HELP_USER,
@@ -42,7 +40,6 @@ async def help_user(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["about"]))
 async def get_me_info(bot, update):
-    # logger.info(update)
     chat_id = str(update.from_user.id)
     chat_id, about_type, expires_at = GetExpiryDate(chat_id)
     await bot.send_message(
@@ -55,12 +52,10 @@ async def get_me_info(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["start"]))
 async def start(bot, update):
-    # logger.info(update)
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(update.from_user.first_name),
         parse_mode="html",
-        #reply_to_message_id=update.message_id
         reply_markup=InlineKeyboardMarkup(
         [
           [
@@ -75,7 +70,6 @@ async def start(bot, update):
     )
 @pyrogram.Client.on_message(pyrogram.filters.command(["upgrade"]))
 async def upgrade(bot, update):
-    # logger.info(update)
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.UPGRADE_TEXT,

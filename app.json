@@ -1,5 +1,5 @@
 {
-  "name": "Upload Bot V2.7 🚀",
+  "name": "Upload Bot V3.0 🚀",
   "description": "Create telegram best url bot.",
   "logo": "https://te.legra.ph/file/82c925ccc38606d837831.jpg",
   "keywords": [
@@ -24,7 +24,7 @@
       "value": "ANYTHING"
     },
     "TG_BOT_TOKEN": {
-      "description": "Your bot token, as a string.",
+      "description": "Your bot token, as a string from @Botfather.",
       "value": ""
     },
     "APP_ID": {
@@ -36,11 +36,11 @@
       "value": ""
     },
     "AUTH_USERS": {
-      "description": "allow only pre-defined users to use this bot",
+      "description": "Your telegram I'd use this bot @UploadLinkToFileBot and use /info",
       "value": "1834908260"
     },
     "BANNED_USERS": {
-      "description": "Banned Unwanted members..",
+      "description": "Type the user id to be banned",
       "value": "",
       "required": false
     },

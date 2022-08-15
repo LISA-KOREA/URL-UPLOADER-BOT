@@ -2,7 +2,7 @@ class Translation(object):
 
     START_TEXT = """Hello {},
 
-I Am Telegram URL Uploader Bot.
+`I Am Telegram URL Uploader Bot.`
 
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
 
@@ -70,7 +70,7 @@ I Am Telegram URL Uploader Bot.
     EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
     FREE_USER_LIMIT_Q_SZE = """Cannot Process.
-Free users only 1 request per 30 minutes.
+Free users only 1 request per 2 minutes.
 /upgrade or Try 1800 seconds later."""
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     

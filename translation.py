@@ -2,7 +2,7 @@ class Translation(object):
 
     START_TEXT = """Hello {},
 
-`I Am Telegram URL Uploader Bot.`
+I Am Telegram URL Uploader Bot.
 
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
 

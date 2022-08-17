@@ -52,14 +52,17 @@ I Am Telegram URL Uploader Bot.
 
 ➪ SEND /deletethumbnail TO DELETE YOUR THUMBNAIL.
 
-
 𒊹︎︎︎ COMMENTS
 
-/info
-/upgrade
-/about
-/help
-/deletethumbnail"""
+/help - how to use this bot 
+
+/upgrade - view offers
+
+/info - check your info 
+
+/about - something about me 
+
+/deletethumbnail - delete your thumbnail"""
 
     INFO_TEXT = """
 🌸 First Name : <b>{}</b>

@@ -6,8 +6,8 @@ I Am Telegram URL Uploader Bot.
 
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
 
-<b>/help for more details...</b>
-"""
+<b>/help for more details...</b>"""
+
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b> 👉 Create own Clone Bot Check Source /about</b>"
     FORMAT_SELECTION = "Set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\n\nYou can use /deletethumbnail to delete the auto-generated thumbnail\n"
@@ -50,7 +50,16 @@ I Am Telegram URL Uploader Bot.
 
 𒊹︎︎︎ HOW TO DELETING THUMBNAIL
 
-➪ SEND /deletethumbnail TO DELETE YOUR THUMBNAIL."""
+➪ SEND /deletethumbnail TO DELETE YOUR THUMBNAIL.
+
+
+𒊹︎︎︎ COMMENTS
+
+/info
+/upgrade
+/about
+/help
+/deletethumbnail"""
 
     INFO_TEXT = """
 🌸 First Name : <b>{}</b>

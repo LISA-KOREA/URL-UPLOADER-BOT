@@ -52,6 +52,17 @@ class Translation(object):
 
 ➪ SEND /deletethumbnail TO DELETE YOUR THUMBNAIL."""
 
+    INFO_TEXT = """
+🌸 First Name : <b>{}</b>
+
+🌸 Second Name : <b>{}</b>
+
+🌸 Username : <b>@{}</b>
+
+🌸 Id : <code>{}</code>
+
+🌸 Profile : <b>{}</b>
+"""
     AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @NT_BOT_ADMIN"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."

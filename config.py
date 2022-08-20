@@ -39,3 +39,4 @@ class Config(object):
     MAX_RESULTS = "50"
     #4GB supporting soon
     STRING_SESSION = #Premium account session string to upload upto 4GB (requires LOGCHANNEL)
+    PREMIUM = ""

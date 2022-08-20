@@ -81,8 +81,7 @@ I Am Telegram URL Uploader Bot.
 
 🌸 Status : <b>{}</b>
 """
-
-    #BUTTON = soon
+    #BUTTONS = soon
 
     AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @NT_BOT_ADMIN"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""

@@ -37,5 +37,5 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     MAX_RESULTS = "50"
-    #STRING_SESSION = Telegram Premium Account StringSession
-    
+    #4GB supporting soon
+    STRING_SESSION = #Premium account session string to upload upto 4GB (requires LOGCHANNEL)

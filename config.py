@@ -35,8 +35,8 @@ class Config(object):
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 120
     # watermark file
-    DEF_WATER_MARK_FILE = ""
+    DEF_WATER_MARK_FILE = "@UploadLinkToFileBot"
     MAX_RESULTS = "50"
     #4GB supporting soon
     #STRING_SESSION =
-    PREMIUM = ""
+    #PREMIUM = ""

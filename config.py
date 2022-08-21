@@ -38,5 +38,5 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
     MAX_RESULTS = "50"
     #4GB supporting soon
-    STRING_SESSION = #Premium account session string to upload upto 4GB (requires LOGCHANNEL)
+    #STRING_SESSION =
     PREMIUM = ""

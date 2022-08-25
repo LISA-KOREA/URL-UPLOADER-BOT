@@ -56,11 +56,18 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(update.from_user.first_name),
         parse_mode="html",
-        disable_web_page_preview=True,
-        reply_to_message_id=update.message_id,
-        reply_markup=Translation.START_BUTTONS
+        reply_markup=InlineKeyboardMarkup(
+        [
+          [
+          InlineKeyboardButton('📍 CHANNEL 📍', url='https://t.me/NT_BOT_CHANNEL'),
+      ],
+      [
+          InlineKeyboardButton('🧑‍💻 DEVELOPER 🧑‍💻', url='https://t.me/LISA_FAN_LK'),
+          InlineKeyboardButton('🤖 SOURCE 🤖', url='https://github.com/LISA-KOREA/URL-UPLOADER-BOT'),
+          ]
+        ]
+      )
     )
-
 @pyrogram.Client.on_message(pyrogram.filters.command(["upgrade"]))
 async def upgrade(bot, update):
     await bot.send_message(

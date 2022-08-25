@@ -2,6 +2,10 @@
 
 [![logo](https://te.legra.ph/file/82c925ccc38606d837831.jpg)](https://t.me/UploadLinkToFileBot)
 
+[![GitHub forks](https://img.shields.io/github/forks/LISA-KOREA/URL-UPLOADER-BOT?&style=flat-square&logo=github)](https://github.com/LISA-KOREA/URL-UPLOADER-BOT/fork)
+![Repo Size](https://img.shields.io/github/repo-size/LISA-KOREA/URL-UPLOADER-BOT?&style=flat-square&logo=github)
+[![GitHub stars](https://img.shields.io/github/stars/LISA-KOREA/URL-UPLOADER-BOT?&style=flat-square&logo=github)](https://github.com/LISA-KOREA/URL-UPLOADER-BOT/stargazers)
+
 
 
 ### Deploy To Heroku

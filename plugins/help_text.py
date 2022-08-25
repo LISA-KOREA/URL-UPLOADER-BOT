@@ -35,7 +35,7 @@ async def help_user(bot, update):
         text=Translation.HELP_USER,
         parse_mode="html",
         disable_web_page_preview=True,
-        reply_to_message_id=update.message_id
+        message_id=update.message_id
     )
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["about"]))

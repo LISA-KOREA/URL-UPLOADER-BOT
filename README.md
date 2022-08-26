@@ -14,7 +14,7 @@
 
 ### Deploy To Railway
 
-  ㅤ ㅤ   ㅤ <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FLISA-KOREA%2FURL-UPLOADER-BOT"><img alt="railway" src="https://img.shields.io/badge/-Deploy%20To%20Railway-purple?style=for-the-badge&logo=railway&logoColor=white"/></a> 
+  ㅤ ㅤ   ㅤ <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FLISA-KOREA%2FURL-UPLOADER-BOT"><img alt="railway" src="https://img.shields.io/badge/-Deploy%20To%20Railway-violet?style=for-the-badge&logo=railway&logoColor=white"/></a> 
 
 ### How To Create Your Own Watch This Video Click 👉 [YouTube](https://youtu.be/1AJISrJXwqA)
 

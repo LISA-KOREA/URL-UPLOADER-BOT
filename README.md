@@ -14,7 +14,7 @@
 
 ### Deploy To Railway
 
-  ㅤ ㅤ   ㅤ<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FLISA-KOREA%2FURL-UPLOADER-BOT%2Ftree%2Frailway&envs=TG_BOT_TOKEN%2CAPP_ID%2CAPI_HASH%2CAUTH_USERS%2CUPDATE_CHANNEL%2CDEF_THUMB_NAIL_VID_S%2C&optionalEnvs=DEF_THUMB_NAIL_VID_S&API_HASHDesc=Get+this+value+from+telegram.org+&APP_IDDesc=Get+this+value+from+telegram.org+&TG_BOT_TOKENesc=Go+to+%40Botfather+and+make+a+new+bot+and+paste+the+bot+token+here&AUTH_USERSesc=Your+Telegram+Id+%28add+only+1+id+for+working+queue+feature+%29&DEF_THUMB_NAIL_VID_Sesc=Add+thumbnail+telegraph+link+&THUMBNAILDefault=https://te.legra.ph/file/82c925ccc38606d837831.jpg"><img alt="railway" src="https://img.shields.io/badge/-Deploy%20To%20Railway-black?style=for-the-badge&logo=railway&logoColor=white"/></a> 
+  ㅤ ㅤ   ㅤ<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FLISA-KOREA%2FURL-UPLOADER-BOT&envs="><img alt="railway" src="https://img.shields.io/badge/-Deploy%20To%20Railway-black?style=for-the-badge&logo=railway&logoColor=white"/></a> 
 
 ### How To Create Your Own Watch This Video Click 👉 [YouTube](https://youtu.be/1AJISrJXwqA)
 

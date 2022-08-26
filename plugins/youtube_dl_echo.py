@@ -1,8 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 # (c) Shrimadhav U K | Modified by @LISA_FAN_LK
 
-# the logging things
 import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -55,10 +52,11 @@ async def echo(bot, update):
             )
             return
         except Exception:
-            await update.reply_text("Contact Me @LISA_FAN_LK")
+            await update.reply_text("Contact me @LISA_FAN_LK")
             return
     logger.info(update.from_user)
-    url = update.text
+    #url = update.text
+    imog = await update.reply_text("⚡", reply_to_message_id=update.message_id)
     youtube_dl_username = None
     youtube_dl_password = None
     file_name = None
@@ -133,7 +131,7 @@ async def echo(bot, update):
         if "This video is only available for registered users." in error_message:
             error_message = Translation.SET_CUSTOM_USERNAME_PASSWORD
         else:
-            error_message = "Invalid url 🥲 </code>"
+            error_message = "Invalid url 🥲</code>"
         await bot.send_message(chat_id=update.chat.id,
         text=Translation.NO_VOID_FORMAT_FOUND.format(str(error_message)),
         disable_web_page_preview=True, parse_mode="html",

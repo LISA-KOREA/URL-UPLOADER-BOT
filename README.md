@@ -12,6 +12,10 @@
 
   ㅤ ㅤ   ㅤ <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FLISA-KOREA%2FURL-UPLOADER-BOT"><img alt="heroku" src="https://img.shields.io/badge/-Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku&logoColor=white"/></a> 
 
+### Deploy To Railway
+
+[![Deploy on Railway](https://railway.app/button.svg)]
+
 ### How To Create Your Own Watch This Video Click 👉 [YouTube](https://youtu.be/1AJISrJXwqA)
 
 ## Config Vars:

@@ -1,8 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 # (c) Shrimadhav U K
 
-# the logging things
 import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -205,6 +202,8 @@ async def youtube_dl_call_back(bot, update):
                 chat_id=update.message.chat.id,
                 message_id=update.message.message_id
             )
+            # get the correct width, height, and duration for videos greater than 10MB
+            # ref: message from @BotSupport
             width = 0
             height = 0
             duration = 0
@@ -321,7 +320,7 @@ async def youtube_dl_call_back(bot, update):
             media_album_p = []
             if images is not None:
                 i = 0
-                caption = "use this bot @UploadLinkToFileBot"
+                caption = "© @NT_BOT_CHANNEL"
                 if is_w_f:
                     caption = "/upgrade to Plan D to remove the watermark\n© @AnyDLBot"
                 for image in images:

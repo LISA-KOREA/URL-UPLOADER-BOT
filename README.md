@@ -6,7 +6,7 @@
 ![Repo Size](https://img.shields.io/github/repo-size/LISA-KOREA/URL-UPLOADER-BOT?&style=flat-square&logo=github)
 [![GitHub stars](https://img.shields.io/github/stars/LISA-KOREA/URL-UPLOADER-BOT?&style=flat-square&logo=github)](https://github.com/LISA-KOREA/URL-UPLOADER-BOT/stargazers)
 
-
+# It would be very helpful if you could give a star ⭐
 
 ### Deploy To Heroku
 

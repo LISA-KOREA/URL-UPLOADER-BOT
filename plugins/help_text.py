@@ -47,7 +47,7 @@ async def get_me_info(bot, update):
         text=Translation.CURENT_ABOUT_DETAILS.format(chat_id, about_type, expires_at),
         parse_mode="html",
         disable_web_page_preview=True,
-        reply_to_message_id=update.message_id
+        #reply_to_message_id=update.message_id
     )
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["start"]))
@@ -74,7 +74,7 @@ async def upgrade(bot, update):
         chat_id=update.chat.id,
         text=Translation.UPGRADE_TEXT,
         parse_mode="html",
-        reply_to_message_id=update.message_id,
+        #reply_to_message_id=update.message_id,
         disable_web_page_preview=True
     )
 
@@ -88,6 +88,6 @@ async def info(bot, update):
         chat_id=update.chat.id,
         text=Translation.INFO_TEXT.format(update.from_user.first_name, last_name, update.from_user.username, update.from_user.id, update.from_user.mention, update.from_user.dc_id, update.from_user.language_code, update.from_user.status),
         parse_mode="html",
-        reply_to_message_id=update.message_id,
+        #reply_to_message_id=update.message_id,
         disable_web_page_preview=True
     )

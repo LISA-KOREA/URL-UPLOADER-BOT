@@ -43,7 +43,6 @@ async def echo(bot, update):
                await update.reply_text("🤭 Sorry Dude, You are **B A N N E D 🤣🤣🤣**")
                return
         except UserNotParticipant:
-            #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
                 text="Pʟᴇᴀsᴇ Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Mᴇ!\n\nDᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs Cᴀɴ Usᴇ Mᴇ!",
                 reply_markup=InlineKeyboardMarkup([

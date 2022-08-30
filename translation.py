@@ -15,7 +15,6 @@ I Am Telegram URL Uploader Bot.
     FORMAT_SELECTION = "Set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\n\nYou can use /deletethumbnail to delete the auto-generated thumbnail\n"
     SET_CUSTOM_USERNAME_PASSWORD = """<b>👮‍♂ Powered By :</b> @LISA_FAN_LK"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    #DOWNLOAD_FILE = "📥 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶"
     DOWNLOAD_START = "📥 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶"
     UPLOAD_START = "📤 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
@@ -36,7 +35,7 @@ I Am Telegram URL Uploader Bot.
 
 <b>🔘 Source :</b> <a href="https://github.com/LISA-KOREA/URL-UPLOADER-BOT">Click</a>
 
-<b>🔘 Language :</b> <a href="https://www.python.org/">Python 3.10.5</a>
+<b>🔘 Language :</b> <a href="https://www.python.org/">Python 3.10.6</a>
 
 <b>🔘 Framework :</b> <a href="https://docs.pyrogram.org/">Pyrogram 1.4.16</a>
 

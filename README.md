@@ -1,4 +1,4 @@
-# Upload Bot V3.0 🚀
+# Upload Bot 🚀
 
 [![logo](https://te.legra.ph/file/82c925ccc38606d837831.jpg)](https://t.me/UploadLinkToFileBot)
 

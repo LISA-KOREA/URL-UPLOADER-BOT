@@ -8,6 +8,9 @@
 
 # It would be very helpful if you could give a star ⭐
 
+# V2 available [click here](https://github.com/LISA-KOREA/UPLOADER-BOT-V2)
+
+
 ### Deploy To Heroku
 
   ㅤ ㅤ   ㅤ <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FLISA-KOREA%2FURL-UPLOADER-BOT"><img alt="heroku" src="https://img.shields.io/badge/-Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku&logoColor=white"/></a> 

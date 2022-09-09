@@ -33,7 +33,7 @@ I Am Telegram URL Uploader Bot.
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_ABOUT_DETAILS = """<b>🔘 My Name :</b> URL Uploader Bot
 
-<b>🔘 Source :</b> <a href="https://github.com/LISA-KOREA/URL-UPLOADER-BOT">Click</a>
+<b>🔘 Source :</b> <a href="https://github.com/LISA-KOREA/UPLOADER-BOT-V2">Click</a>
 
 <b>🔘 Language :</b> <a href="https://www.python.org/">Python 3.10.7</a>
 

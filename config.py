@@ -37,6 +37,4 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     MAX_RESULTS = "50"
-    #4GB supporting soon
-    #STRING_SESSION =
-    #PREMIUM = ""
+    

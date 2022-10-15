@@ -35,7 +35,7 @@ I Am Telegram URL Uploader Bot.
 
 <b>🔘 Source :</b> <a href="https://github.com/LISA-KOREA/UPLOADER-BOT-V2">Click</a>
 
-<b>🔘 Language :</b> <a href="https://www.python.org/">Python 3.10.7</a>
+<b>🔘 Language :</b> <a href="https://www.python.org/">Python 3.10.8</a>
 
 <b>🔘 Framework :</b> <a href="https://docs.pyrogram.org/">Pyrogram 1.4.16</a>
 
@@ -82,15 +82,6 @@ I Am Telegram URL Uploader Bot.
 
 🌸 Status : <b>{}</b>
 """
-     #START_BUTTONS = InlineKeyboardMarkup(
-       #  [[
-       #  InlineKeyboardButton('HELP', callback_data='help')
-       #  InlineKeyboardButton('ABOUT', callback_data='about')
-       #  ],[
-      #   InlineKeyboardButton('CLOSE', callback_data='close')
-        # ]]
-  #  )
-  # BUTTONS = InlineKeyboardMarkup( soon
 
     AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @NT_BOT_ADMIN"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
